@@ -7,70 +7,69 @@
 	<title>Anjali Read</title>
 	<link rel="shortcut icon" href="om.png" type="image/vnd.microsoft.icon">
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand' type='text/css'>
-
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	 crossorigin="anonymous"></script>
-	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-
-
-	<link rel="stylesheet" href="index.css" type="text/css">
-
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+	<link rel="stylesheet" href="index.css" type="text/css">
 </head>
 
 <body>
-  <nav>
-    <div class="nav-wrapper indigo darken-4">
-      <a href="#" class="brand-logo">Anjali Deva</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
-
+	<!-- PARALLAX image -->
 	<div class="parallax-container">
 		<div class="parallax"><img src="http://materializecss.com/images/parallax1.jpg"></div>
 	</div>
+
+	<!-- ABOUT SECTION -->
+	<div id="about">
+		<h1>Anjali Read</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis feugiat erat, vel imperdiet est. Nunc maximus orci id
+			urna viverra, ac sollicitudin risus malesuada. Duis dolor nibh, faucibus quis est sit amet, pellentesque convallis neque.
+			Donec ullamcorper semper ipsum, et auctor felis auctor eget. Duis sem metus, aliquam id diam scelerisque, rhoncus dapibus
+			ipsum. Vivamus sodales lorem et sapien ultrices, sollicitudin ornare lorem sodales. Integer quis odio quis urna lobortis
+			vehicula eu rutrum metus. Donec at nibh gravida, fringilla nulla sit amet, porttitor dui. Pellentesque ullamcorper tristique
+			ante, in sollicitudin est porttitor nec.</p>
+	</div>
+	<!-- POP OUTS -->
 	<ul class="collapsible popout" data-collapsible="accordion">
 		<li>
-			<div class="collapsible-header"><i class="material-icons">filter_drama</i>First Section</div>
+			<div class="collapsible-header">First Section</div>
 			<div class="collapsible-body">
 				<p>This is first section.</p>
 			</div>
 		</li>
 		<li>
-			<div class="collapsible-header"><i class="material-icons">place</i>Second Section</div>
+			<div class="collapsible-header">Second Section</div>
 			<div class="collapsible-body">
+				<img src="http://lorempixel.com/400/200/">
+				<img src="http://lorempixel.com/400/200/">
+				<img src="http://lorempixel.com/400/200/">
 				<img src="http://lorempixel.com/400/200/">
 				<img src="http://lorempixel.com/400/200/">
 				<img src="http://lorempixel.com/400/200/">
 			</div>
 		</li>
 		<li>
-			<div class="collapsible-header"><i class="material-icons">whatshot</i>Third Section</div>
+			<div class="collapsible-header">Third Section</div>
 			<div class="collapsible-body">
 				<p>This is third section.</p>
 			</div>
 		</li>
 		<li>
-			<div class="collapsible-header"><i class="material-icons">filter_drama</i>First Section</div>
+			<div class="collapsible-header">First Section</div>
 			<div class="collapsible-body">
 				<p>This is first section.</p>
 			</div>
 		</li>
 		<li>
-			<div class="collapsible-header"><i class="material-icons">place</i>Second Section</div>
+			<div class="collapsible-header">Second Section</div>
 			<div class="collapsible-body">
 				<p>This is second section.</p>
 			</div>
 		</li>
 		<li>
-			<div class="collapsible-header"><i class="material-icons">whatshot</i>Third Section</div>
+			<div class="collapsible-header">Third Section</div>
 			<div class="collapsible-body">
 				<p>This is third section.</p>
 			</div>
@@ -84,7 +83,6 @@
 	<script>
 		$(document).ready(function () {
 			$('.parallax').parallax();
-
 		});
 		$(document).ready(function () {
 			$('.collapsible').collapsible();
