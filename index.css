@@ -331,11 +331,12 @@ h2 .the-metadata {
 }*/
 .footer-text .column {
 	width: 75%;
-	margin: auto;
+	margin: 0 auto;
 }
 
 .footer-text .column-inner {
 	margin: 0 80px 80px 0;
+	width: 100%;
 }
 
 .footer-text h2 {
