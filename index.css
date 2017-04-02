@@ -86,8 +86,7 @@ p a:hover {
 }
 .site-title {
 	text-transform: uppercase;
-	font-style: italic;
-	font-size: 6em;
+	font-size: 7em;
 	line-height: 1em;
 	text-shadow: 1px 1px 0px black;
 }
@@ -97,7 +96,6 @@ p a:hover {
 	text-shadow: 1px 1px 0px black;
 	margin: 0 0 50px 0;
 	line-height: 1.8em;
-    font-family: 'Quicksand';
 }
 .scrollbox, 
 .background {
@@ -111,7 +109,7 @@ p a:hover {
 	height: 100%;
 	z-index: -1;
 }
-.b09-dark-overlay {
+.dark-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -121,7 +119,7 @@ p a:hover {
 	opacity: .3;
 	z-index: 1;
 }
-#footer .b09-dark-overlay {
+#footer .dark-overlay {
 	opacity: .7;
 }
 h2 {
@@ -328,11 +326,12 @@ h2 .the-metadata {
 	left: 0;
 	bottom: 0;
 }
-.footer-text .columns {
+/*.footer-text .columns {
 	margin: auto;
-}
+}*/
 .footer-text .column {
-	width: 50%;
+	width: 75%;
+	margin: auto;
 }
 
 .footer-text .column-inner {
@@ -440,4 +439,10 @@ h2 .the-metadata {
 	.footer-text .columns {
 		margin: auto;
 	}
+}
+
+
+.about-footer{
+	margin: 0 auto;
+	text-align: center;
 }
