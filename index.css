@@ -35,7 +35,8 @@ p {
 	font-size: .9em;
 	line-height: 1.5em;
 	letter-spacing: 0.03em;
-	font-family: DINWebPro, Helvetica, Arial, serif;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
 p a {
 	font-weight: bold;
@@ -184,7 +185,7 @@ h2.blank {
 	background: #f1f1f1;
 }
 .permalink {
-	padding: 10px 0 5px 40px;
+	padding: 0 0 5px 0;
 	position: relative;
 	overflow: hidden;
 }
