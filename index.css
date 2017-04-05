@@ -448,3 +448,8 @@ h2 .the-metadata {
 	margin: 0 auto;
 	text-align: center;
 }
+
+.reveal {
+  margin-top: 10px;
+  top: 50px !important;
+}
