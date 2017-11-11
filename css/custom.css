@@ -1,0 +1,15 @@
+nav ul a, nav .button-collapse i{
+    color: black;
+}
+nav{
+    box-shadow: 0 0 0;
+}
+nav img{
+    margin-top: 12px;
+    margin-left: 12px;
+    height: 1.2em;
+}
+
+h1{
+    text-align: center;
+}
