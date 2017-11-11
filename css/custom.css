@@ -1,8 +1,11 @@
 nav ul a, nav .button-collapse i{
     color: black;
 }
-nav{
+nav, .card{
     box-shadow: 0 0 0;
+}
+.card .card-content {
+    padding: 0px;
 }
 nav img{
     margin-top: 12px;
@@ -12,4 +15,9 @@ nav img{
 
 h1{
     text-align: center;
+}
+
+.grey-section{
+    margin-top: 75px;
+    background-color: #f5f5f5;
 }
