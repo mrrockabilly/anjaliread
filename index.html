@@ -5,6 +5,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection" />
+
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Asul|Condiment|Fira+Mono|Gravitas+One|Lekton" rel="stylesheet"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -14,20 +17,31 @@
             <a href="#!" class="brand-logo center black-text"><img src="runner.png"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down  black-text">
-                <li><a href="sass.html">About</a></li>
-                <li><a href="badges.html">Repurposed</a></li>
-                <li><a href="collapsible.html">Vintage</a></li>
+                <li><a class="modal-trigger" href="#about">About</a></li>
+                <li><a href="#sale">On Sale</a></li>
+                <li><a href="badges.html">Past Items</a></li>
                 <li><a href="mobile.html">eBay Store</a></li>
             </ul>
             <ul class="side-nav  black-text" id="mobile-demo">
-                <li><a href="sass.html">About</a></li>
-                <li><a href="badges.html">New</a></li>
-                <li><a href="collapsible.html">Vintage</a></li>
+                <li><a class="modal-trigger" href="#about">About</a></li>
+                <li><a href="#sale">On Sale</a></li>
+                <li><a href="badges.html">Past Items</a></li>
                 <li><a href="mobile.html">eBay Store</a></li>
             </ul>
         </div>
     </nav>
 
+  <!-- About Structure -->
+  <div id="about" class="modal">
+    <div class="modal-content">
+      <h4>Ruby Run Club</h4>
+      <div class="row">
+          <img class="col s6" src="https://cdn.dribbble.com/users/97493/screenshots/1535865/bsr-dribble.gif">
+          <div class="col s6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis ultrices ante, et tempor risus lobortis
+                in. Integer sed pulvinar velit, quis semper libero. Nunc eget facilisis justo, sit amet suscipit sem.</div>
+      </div>
+    </div>
+  </div>
     <h1>Ruby Run Club</h1>
     <div class="container row">
         <img class="col s6" src="http://lorempixel.com/600/800/fashion">
@@ -44,7 +58,7 @@
         </div>
 
     </div>
-    <h1>On Sale Now</h1>
+    <h1 id="sale">On Sale Now</h1>
     <div class="container row">
         <div class="col s6 m4">
             <div class="card">
@@ -129,25 +143,25 @@
     <footer class="page-footer blue-grey lighten-5">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="black-text">Thanks For Visiting!</h5>
-                    <p class="black-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col m4 s12">
                     <h5 class="black-text">Links</h5>
                     <ul>
-                        <li><a class="black-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="black-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="black-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="black-text text-lighten-3" href="#!">Link 4</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Blog</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">eBay Store</a></li>
                     </ul>
+
+                </div>
+                <div class="col m8 s12">
+                    <h5 class="black-text">Thanks For Visiting!</h5>
+                    <p class="black-text text-lighten-4">Please come back often! We are always adding new items.</p>
                 </div>
             </div>
         </div>
         <div class="footer-copyright black">
             <div class="container">
-                © 2014 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                <!-- © 2014 Copyright Text -->
+                <div class="right soon"><a href="https://mrrockabilly.github.io/">Mr.Rockabilly</a></div>
             </div>
         </div>
     </footer>
