@@ -27,7 +27,7 @@ function _load_items(data){
             <div class="col s6 m4">
                 <div class="card medium">
                     <div class="card-image">
-                        <img src="${item.pictureURLSuperSize}">
+                        <img alt="photo of ${item.title[0]}"src="${item.pictureURLSuperSize}">
                     </div>
                     <div class="card-content">
                         <p>${item.title[0]}</p>
