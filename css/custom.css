@@ -27,3 +27,9 @@ h1,h2,h4{
     color: white;
     padding: 10px;
 }
+
+body{
+     /* background-color: red;  */
+    background-image: url("../stars.gif");
+     background-repeat: space;
+}
