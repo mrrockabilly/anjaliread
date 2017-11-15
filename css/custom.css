@@ -31,5 +31,5 @@ h1,h2,h4{
 body{
      /* background-color: red;  */
     background-image: url("../stars.gif");
-     background-repeat: space;
+     background-repeat: round;
 }
