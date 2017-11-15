@@ -1,4 +1,4 @@
-var url = "http://svcs.ebay.com/services/search/FindingService/v1";
+var url = "https://svcs.ebay.com/services/search/FindingService/v1";
     url += "?OPERATION-NAME=findItemsAdvanced";
     url += "&SERVICE-VERSION=1.0.0";
     url += "&SECURITY-APPNAME=JasonRub-RubyRunC-PRD-55d8a3c47-c18c8f4d";
