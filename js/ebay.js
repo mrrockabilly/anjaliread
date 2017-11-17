@@ -24,7 +24,7 @@ function _load_items(data){
     let items = data.findItemsAdvancedResponse["0"].searchResult[0].item;
     items.forEach(function(item){
         $(".items").append(`
-            <div class="col s6 m4">
+            <div class="col s12 m4">
                 <div class="card medium">
                     <div class="card-image">
                         <img alt="photo of ${item.title[0]}"src="${item.pictureURLSuperSize}">

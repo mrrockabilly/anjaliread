@@ -1,11 +1,15 @@
 nav ul a, nav .button-collapse i{
     color: black;
 }
-nav, .card{
+/* nav, .card{
     box-shadow: 0 0 0;
 }
 .card .card-content {
     padding: 0px;
+} */
+.card img{
+         max-height: 300px;
+    object-fit: cover; 
 }
 nav img{
     margin-top: 12px;
