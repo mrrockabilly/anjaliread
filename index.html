@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/custom.css" media="screen,projection" />
-
+<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Asul|Condiment|Fira+Mono|Gravitas+One|Lekton" rel="stylesheet"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +20,6 @@
                 <ul class="right hide-on-med-and-down  black-text">
                     <li><a class="modal-trigger" href="#about">About</a></li>
                     <li><a href="#sale">On Sale</a></li>
-                    <li><a href="allitems.html">All Items</a></li>
                     <li><a href="https://www.ebay.com/usr/the.fat.cat">eBay Store</a></li>
                 </ul>
 
@@ -43,106 +42,31 @@
                 <img class="col s6" src="https://cdn.dribbble.com/users/97493/screenshots/1535865/bsr-dribble.gif">
                 <div class="col s6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis ultrices ante, et tempor risus
                     lobortis in. Integer sed pulvinar velit, quis semper libero. Nunc eget facilisis justo, sit amet suscipit
-                    sem.</div>
+                    sem.
+                </div>
             </div>
         </div>
     </div>
-    <h1>Ruby Run Club</h1>
+    <h1>RubyRunClub</h1>
     <div class="container row">
         <img class="col s6" src="fashion.jpg">
         <img class="col s6" src="fashion2.jpg">
     </div>
 
     <h1 id="sale">On Sale Now</h1>
-    <div class="container row">
-        <div class="col s6 m4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="fashion3.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                        require little markup to use effectively.</p>
-                </div>
 
-            </div>
+    <div class="container row items">
+        <div class="loading">
+            <img src="loading-runner.gif"/>
         </div>
-        <div class="col s6 m4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="fashion.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                        require little markup to use effectively.</p>
-                </div>
-
-            </div>
-        </div>
-        <div class="col s6 m4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="fashion2.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                        require little markup to use effectively.</p>
-                </div>
-
-            </div>
-        </div>
-        <div class="col s6 m4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="fashion3.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                        require little markup to use effectively.</p>
-                </div>
-
-            </div>
-        </div>
-        <div class="col s6 m4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="fashion2.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                        require little markup to use effectively.</p>
-                </div>
-
-            </div>
-        </div>
-        <div class="col s6 m4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="fashion.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I
-                        require little markup to use effectively.</p>
-                </div>
-
-            </div>
-        </div>
-
     </div>
-    <h4><a href="allitems.html">Want to see more!!!</a></h4>
     <footer class="page-footer blue-grey lighten-5">
         <div class="container">
             <div class="row">
                 <div class="col m4 s12">
                     <h5 class="black-text">Links</h5>
                     <ul>
-                        <li><a class="black-text text-lighten-3" href="https://www.instagram.com/nivelliot/">Instagram</a></li>
+                        <li><a class="black-text text-lighten-3" href="https://www.instagram.com/rubyrunclub/">Instagram</a></li>
                         <li><a class="black-text text-lighten-3" href="blog.html">Blog</a></li>
                         <li><a class="black-text text-lighten-3" href="https://www.ebay.com/usr/the.fat.cat">eBay Store</a></li>
                     </ul>
@@ -160,11 +84,13 @@
                 <div class="right soon"><a href="https://mrrockabilly.github.io/">Mr.Rockabilly</a></div>
             </div>
         </div>
+
     </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/ebay.js"></script>
 </body>
 
 </html>

@@ -22,17 +22,17 @@ document.body.appendChild(s);
 function _load_items(data){
     console.log(data)
     let items = data.findItemsAdvancedResponse["0"].searchResult[0].item;
+    $(".items").html("")
     items.forEach(function(item){
-        $(".items").append(`
+        $(".items").prepend(`
             <div class="col s12 m4">
-                <div class="card medium">
+                <div class="card">
                     <div class="card-image">
                         <img alt="photo of ${item.title[0]}"src="${item.pictureURLSuperSize}">
                     </div>
                     <div class="card-content">
-                        <p>${item.title[0]}</p>
                         <p>Current Price: $${item.sellingStatus["0"].convertedCurrentPrice["0"].__value__}</p>
-                        <a href="${item.viewItemURL[0]}" class="waves-effect waves-light btn">Place Bid</a>
+                        <a href="${item.viewItemURL[0]}" class="waves-effect waves-light btn blue-grey lighten-3">Place Bid</a>
                     </div>
 
                 </div>

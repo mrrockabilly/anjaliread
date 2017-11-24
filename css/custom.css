@@ -1,14 +1,23 @@
 nav ul a, nav .button-collapse i{
     color: black;
 }
-/* nav, .card{
-    box-shadow: 0 0 0;
+
+#sale{
+   padding-top:100px; 
 }
-.card .card-content {
-    padding: 0px;
-} */
+
+.loading img, .card-content btn{
+    text-align: center;
+    margin: auto !important;
+    display: block;
+}
+
+.card-content{
+    text-align: center;
+}
+
 .card img{
-         max-height: 300px;
+    max-height: 300px;
     object-fit: cover; 
 }
 nav img{
@@ -36,4 +45,9 @@ body{
      /* background-color: red;  */
     background-image: url("../stars3.gif");
      background-repeat: round;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Space Mono', monospace;
 }
