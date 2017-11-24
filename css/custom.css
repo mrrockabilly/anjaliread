@@ -6,6 +6,7 @@ nav ul a, nav .button-collapse i{
    padding-top:100px; 
 }
 
+
 .loading img, .card-content btn{
     text-align: center;
     margin: auto !important;
@@ -42,7 +43,6 @@ h1,h2,h4{
 }
 
 body{
-     /* background-color: red;  */
     background-image: url("../stars3.gif");
      background-repeat: round;
 }
@@ -50,4 +50,15 @@ body{
 h1{
     font-size: 2.5em;
     font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+footer{
+    margin-top: 100px;
 }
