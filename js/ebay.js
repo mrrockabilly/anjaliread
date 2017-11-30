@@ -20,7 +20,6 @@ document.body.appendChild(s);
 
 
 function _load_items(data){
-    console.log(data)
     let items = data.findItemsAdvancedResponse["0"].searchResult[0].item;
     $(".items").html("")
     items.forEach(function(item){
